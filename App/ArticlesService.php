@@ -73,7 +73,7 @@ class ArticlesService implements Interfaces\IService
     private function Look_For_Articles(string $url, array &$list, array &$articles, string $baseURL, int $limit, bool $tryRobots)
     {
         if($tryRobots && $this->Try_Find_Robots($url, $articles, $limit)) return true;;
-        if(count($articles) >= $limit) return true;
+        if($limit && count($articles) >= $limit) return true;
         if(in_array($url, $list)) return true;
         echo $url."\n";
         array_push($list, $url);
