@@ -2,7 +2,7 @@
 All settings are in Settings.ini.
 Created to get articles from 15min.lt
 
-#Settings
+# Settings
 
 ##Database
 |  Setting  |  Description | Value |
@@ -13,7 +13,7 @@ Created to get articles from 15min.lt
 | charset  | MySQL connection charset | string |
 | title   | MySQL database name/title | string |
 
-##Scraping
+## Scraping
 |  Setting  |  Description | Value |
 |:---------:|:------------:|:-----:|
 | limit     | How many articles to get before closing connection| int (0 - All)
