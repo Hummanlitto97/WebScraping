@@ -4,7 +4,7 @@ Created to get articles from 15min.lt
 
 # Settings
 
-##Database
+## Database
 |  Setting  |  Description | Value |
 |:---------:|:------------:|:-----:|
 | host    | MySQL server host | string |
